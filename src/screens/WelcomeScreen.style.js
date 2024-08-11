@@ -1,0 +1,46 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+    container:{
+        display:"flex",
+        flex:1,
+        justifyContent:"flex-end"
+    },
+    welcome_image:{
+        height:'100%',
+        width:"100%",
+        position:"absolute"
+    },
+    content:{
+        padding:20,
+        paddingBottom:40,
+        marginLeft:32,
+    },
+    content_linear:{
+        position:"absolute",
+        bottom:0
+    },
+    content_div:{
+        marginTop:12
+    },
+    div_text1:{
+        color:'rgb(255,255,255)',
+        fontWeight:"700",
+        fontSize:48,
+        lineHeight:1
+    },
+    div_text2:{
+        color:'rgb(229,229,229)',
+        fontWeight:"500"
+    },
+    button:{
+        marginHorizontal:"auto",
+        padding:12,
+        paddingHorizontal:48,
+        borderRadius:9999
+    },
+    button_text:{
+        color:'rgb(255,255,255)',
+        fontWeight:"700"
+    }
+})
