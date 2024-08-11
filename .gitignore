@@ -1,4 +1,9 @@
 
+# Android build files
+android/
+
+# iOS build files
+ios/
 # Environment variables
 .env
 
