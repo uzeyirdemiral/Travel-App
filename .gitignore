@@ -2,6 +2,9 @@
 # Android build files
 android/
 
+android/app/src/main/AndroidManifest.xml
+
+
 # iOS build files
 ios/
 # Environment variables
