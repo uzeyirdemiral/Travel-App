@@ -14,11 +14,14 @@
 
 Aşağıda uygulamanın farklı bölümlerine ait ekran görüntülerini bulabilirsiniz:
 
-![Ana Sayfa](link_to_your_image.png)  
-> *Ekran Görüntüsü 2: Ana sayfa*
-
-![Seyahat Önerileri](link_to_your_image.png)  
-> *Ekran Görüntüsü 3: Seyahat önerileri*
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="assets/screenshots/1.png" width="300" style="margin-right: 20px;"/>
+    <img src="assets/screenshots/2.png" width="300" style="margin-right: 20px;"/>
+    <img src="assets/screenshots/3.png" width="300" style="margin-right: 20px;"/>
+    <img src="assets/screenshots/4.png" width="300" style="margin-right: 20px;"/>
+    <img src="assets/screenshots/5.png" width="300" style="margin-right: 20px;"/>
+    <img src="assets/screenshots/6.png" width="300" style="margin-right: 20px;"/>
+</div>
 
 ## Kullanılan Teknolojiler
 
@@ -66,6 +69,4 @@ Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izl
 API anahtarları ve diğer hassas bilgiler `.env` dosyasında saklanmalıdır:
 
    ```bash
-   API_URL=<Your API URL> 
-   API_KEY=<Your API Key>  
-  
+   API_URL=<Your API URL>
