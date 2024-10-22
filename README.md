@@ -55,7 +55,7 @@ Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izl
    ```bash
    npm install
    
-4. Uygulamasını başlatın:
+4. Uygulamayı başlatın:
    ```bash
    npm start
 
